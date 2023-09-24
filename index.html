@@ -18,20 +18,21 @@
 </head>
 <body>
     <!-- Header with Logo and Navigation -->
-    <header>
-        <nav>
-            <a href="index.html"><img src="images/logo.png" alt="University Logo"></a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">COURSE</a></li>
-                    <li><a href="">CONTACT</a></li>
-                </ul>
-            </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
+    <nav class="sticky">
+        <a href="#top"><img src="images/logo.png" alt="University Logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="#courses">COURSES</a></li>
+                <li><a href="#campuses">CAMPUSES</a></li>
+                <li><a href="#facilities">FACILITIES</a></li>
+                <li><a href="#testimonials">TESTIMONIALS</a></li>
+                <li><a href="#about">CONTACT US</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <header id="top">
         <div class="text-box">
             <h1>The World's Best University</h1>
                 <p>XYZ University is a global leader in higher education, known for its rich history, diverse community of scholars, and commitment to cutting-edge research. With top-notch faculty, state-of-the-art facilities, and a wide range of academic programs, we empower students to shape a brighter future.</p>
@@ -41,7 +42,7 @@
     <!-- End Header with Logo and Navigation -->
 
     <!-- Courses -->
-    <section class="course">
+    <section class="course" id="courses">
         <h1>The Courses We Offer</h1>
             <p>XYZ University offers a wide range of courses across various disciplines, providing students with a diverse and enriching educational experience led by expert faculty. Whether you're interested in the arts, sciences, business, or engineering, our curriculum equips you with the knowledge and skills needed for a successful future.</p>
         <div class="row">
@@ -62,7 +63,7 @@
     <!-- End Courses -->
 
     <!-- Different Campuses -->
-    <section class="campus">
+    <section class="campus" id="campuses">
         <h1>Our Global Campuses</h1>
             <p>Discover the world with XYZ University! We proudly offer three global campuses, providing students with the opportunity to experience diverse cultures, gain international perspectives, and broaden their horizons. Whether studying at our main campus or one of our global locations, you'll receive a world-class education that transcends borders. Join us on a transformative journey of learning and exploration.</p>
         <div class="row">
@@ -90,7 +91,7 @@
     <!-- End Different Campuses -->
 
     <!-- Facilities -->
-    <section class="facilities">
+    <section class="facilities" id="facilities">
         <h1>Our Facilities</h1>
             <p>At XYZ University, our state-of-the-art facilities are designed to inspire and support excellence in education and research. From cutting-edge laboratories and modern classrooms to extensive libraries and vibrant student spaces, we provide an environment that nurtures creativity, innovation, and collaboration. Our commitment to student well-being is reflected in our fitness centers, recreational areas, and a wide range of student services. Whether you're pursuing academic endeavors, conducting groundbreaking research, or simply looking for a place to relax, our world-class facilities ensure that every aspect of your university experience is exceptional.</p>
         <div class="row">
@@ -114,7 +115,7 @@
     <!-- End Facilities -->
 
     <!-- Testimonials -->
-    <section class="testimonials">
+    <section class="testimonials" id="testimonials">
         <h1>Testimonials</h1>
             <p>Our testimonials speak volumes. Hear from our satisfied students and alumni about their transformative experiences at XYZ University, where academic excellence and personal growth converge.</p>
         <div class="row">
@@ -154,7 +155,7 @@
     <!-- End Call to Action -->
 
     <!-- Footer -->
-    <footer>
+    <footer id="about">
         <h4>About Us</h4>
             <p>XYZ University is a globally renowned institution dedicated to fostering excellence in education and research. With a rich history of academic achievement and a commitment to innovation, we empower students to excel in a rapidly evolving world. Our diverse community, cutting-edge facilities, and outstanding faculty ensure that every student's journey at XYZ University is one of growth, discovery, and preparation for a bright future.</p>
         <div class="icons">
